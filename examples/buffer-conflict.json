@@ -1,0 +1,12 @@
+{
+  "operation": "check",
+  "bookings": [{
+    "id": "架空予約A", "resource_id": "会議室A",
+    "start": "2026-10-21T09:00:00+09:00", "end": "2026-10-21T10:00:00+09:00",
+    "buffer_after_minutes": 15
+  }],
+  "candidate": {
+    "id": "架空予約B", "resource_id": "会議室A",
+    "start": "2026-10-21T10:00:00+09:00", "end": "2026-10-21T11:00:00+09:00"
+  }
+}

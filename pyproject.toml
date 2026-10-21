@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "booking-rules"
+version = "0.1.0"
+description = "Deterministic, read-only resource booking conflict and extension checks"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+
+[tool.setuptools.packages.find]
+include = ["booking_rules*"]

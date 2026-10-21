@@ -1,0 +1,14 @@
+{
+  "operation": "extend",
+  "bookings": [{
+    "id": "demo-equipment-booking", "resource_id": "demo-projector",
+    "start": "2026-10-21T09:00:00+09:00", "end": "2026-10-21T10:00:00+09:00",
+    "buffer_after_minutes": 15
+  }],
+  "unavailable": [{
+    "id": "demo-maintenance", "resource_id": "demo-projector",
+    "start": "2026-10-21T11:00:00+09:00", "end": "2026-10-21T12:00:00+09:00"
+  }],
+  "booking_id": "demo-equipment-booking",
+  "new_end": "2026-10-21T11:00:00+09:00"
+}
